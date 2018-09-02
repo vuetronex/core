@@ -1,0 +1,4 @@
+node_modules
+db/database.sqlite3
+package-lock.json
+tailwind.js

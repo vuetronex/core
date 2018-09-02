@@ -1,0 +1,45 @@
+{
+  "name": "@vuetronex/core",
+  "version": "0.0.1",
+  "description": "Electron with Vue & SQL Database",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "postinstall": "electron-rebuild && vex install"
+  },
+  "repository": {
+    "url": "https://github.com/tzsk/vuetronex"
+  },
+  "keywords": [
+    "Electron",
+    "Vue JS",
+    "Knex JS",
+    "Bookshelf JS",
+    "Vue Router",
+    "Tailwind CSS"
+  ],
+  "author": "tzsk",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuetronex/cli": "0.0.2",
+    "cross-env": "^5.2.0",
+    "electron": "^2.0.0",
+    "electron-rebuild": "^1.8.2",
+    "elemon": "^5.0.3",
+    "laravel-mix": "^2.1.14",
+    "node-sass": "^4.9.3",
+    "tailwindcss": "^0.6.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "bookshelf": "^0.13.3",
+    "electron-is-dev": "^0.3.0",
+    "knex": "^0.13.0",
+    "md5": "^2.2.1",
+    "sqlite3": "^4.0.2",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  }
+}
