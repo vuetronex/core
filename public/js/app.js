@@ -16029,7 +16029,7 @@ var render = function() {
     },
     [
       _c("h1", { staticClass: "font-light my-4 text-blue-light" }, [
-        _vm._v("Vuetronex JS")
+        _vm._v("Vuetronex")
       ]),
       _vm._v(" "),
       _c("router-view")

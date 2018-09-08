@@ -4,7 +4,8 @@
   "description": "Electron with Vue & SQL Database",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "npm run watch & electron .",
+    "electron": "electron .",
     "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "postinstall": "electron-rebuild && vex install"
   },
