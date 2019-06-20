@@ -35,7 +35,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bcrypt": "^3.0.0",
-    "bookshelf": "^0.13.3",
+    "bookshelf": "^0.15.0",
     "electron-is-dev": "^0.3.0",
     "knex": "^0.13.0",
     "md5": "^2.2.1",
