@@ -23,7 +23,7 @@
   "author": "tzsk",
   "license": "MIT",
   "devDependencies": {
-    "@vuetronex/cli": "0.0.2",
+    "@vuetronex/cli": "0.1.1",
     "cross-env": "5.2.0",
     "electron": "2.0.18",
     "electron-rebuild": "1.8.5",
