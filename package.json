@@ -33,7 +33,7 @@
     "tailwindcss": "0.6.6"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "bcrypt": "^3.0.0",
     "bookshelf": "^0.13.3",
     "electron-is-dev": "^0.3.0",
